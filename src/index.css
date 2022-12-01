@@ -11,6 +11,10 @@ nav {
   padding: 0 1.25%;
 }
 
+.progress {
+  background-color: #c2185b;
+}
+
 .movies {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));

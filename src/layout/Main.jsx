@@ -1,5 +1,6 @@
 import React from 'react';
 import { Movies } from '../components/Movies';
+import { Preloader } from '../components/Preloader';
 
 class Main extends React.Component {
     state = {
@@ -16,7 +17,7 @@ class Main extends React.Component {
             <main className="main-container content" >
                 {
                     movies.length
-                        ? (<Movies movies={movies} />) : <h3>Loading...</h3>
+                        ? (<Movies movies={movies} />) : <Preloader />
                 }
             </main>
         )
