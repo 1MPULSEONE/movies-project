@@ -11,7 +11,11 @@ nav {
   padding: 0 1.25%;
 }
 
-footer {}
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
 
 .main-container {
   min-height: calc(100vh - 70px - 64px);
