@@ -25,3 +25,30 @@ nav {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5% 1%
 }
+
+.btn {
+  background-color: #ec407a;
+}
+
+.btn:hover {
+  background-color: #f48fb1;
+}
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+  background-color: #ec407a;
+}
+
+[type="radio"].with-gap:checked+span:before {
+  border: 2px solid #ec407a;
+}
