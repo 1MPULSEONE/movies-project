@@ -1,17 +1,16 @@
 function Footer() {
     return (
-        <footer className="page-footer #ec407a pink lighten-1">
-            <div className="footer-copyright">
-                <div className="container">
+        <footer className='page-footer #ec407a pink lighten-1'>
+            <div className='footer-copyright'>
+                <div className='container'>
                     © {new Date().getFullYear()} Copyright Text
-                    {/* <a className="grey-text text-lighten-4 right" href="#!">Repository</a> */}
+                    <a className='grey-text text-lighten-4 right' href='#!'>
+                        Repository
+                    </a>
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
-
-
-export { Footer }
-
+export { Footer };
