@@ -1,1 +1,1 @@
-# Simple React movie app.
+# 🎞️ Simple React movie app.
